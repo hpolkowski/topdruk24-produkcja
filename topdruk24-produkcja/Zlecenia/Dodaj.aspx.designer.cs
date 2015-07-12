@@ -13,21 +13,93 @@ namespace topdruk24_produkcja.Zlecenia {
     public partial class Dodaj {
         
         /// <summary>
-        /// SQLDataZlecenia control.
+        /// SqlDataSource_Zlecenia control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SQLDataZlecenia;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource_Zlecenia;
         
         /// <summary>
-        /// FormView1 control.
+        /// SqlDataSource_Zleceniodawcy control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.FormView FormView1;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource_Zleceniodawcy;
+        
+        /// <summary>
+        /// selectZleceniodawca control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlSelect selectZleceniodawca;
+        
+        /// <summary>
+        /// inputNumerZlecenia control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText inputNumerZlecenia;
+        
+        /// <summary>
+        /// inputNazwa control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText inputNazwa;
+        
+        /// <summary>
+        /// inputData control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl inputData;
+        
+        /// <summary>
+        /// inputNaklad control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl inputNaklad;
+        
+        /// <summary>
+        /// inputWymiar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText inputWymiar;
+        
+        /// <summary>
+        /// inputIloscKolorow control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText inputIloscKolorow;
+        
+        /// <summary>
+        /// inputNotatki control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlTextArea inputNotatki;
     }
 }

@@ -66,19 +66,24 @@
         </div>
         <div class="container body-content">
             <ul class="nav nav-tabs">
-                <li id="Home"><a runat="server" href="~/">Home</a></li>
+                <li id="Home"><a runat="server" href="~/">Główna</a></li>
                 <li id="Zlecenia" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">Zlecenia <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a runat="server" href="~/Zlecenia/Default">Wykaz</a></li>
+                        <li><a runat="server" href="~/Zlecenia/">Wykaz</a></li>
                         <li class="divider"></li>
                         <li><a runat="server" href="~/Zlecenia/Dodaj">Dodaj</a></li>
-                        <li><a>Edytuj</a></li>
-                        <li><a>Usuń</a></li>
                     </ul>
                 </li>
+                <li id="Klienci" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">Klienci <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a runat="server" href="~/Klienci/">Wykaz</a></li>
+                        <li class="divider"></li>
+                        <li><a runat="server" href="~/Klienci/Dodaj">Dodaj</a></li>
+                    </ul>
+                </li>
+                <%--
                 <li id="About"><a runat="server" href="~/About">About</a></li>
                 <li id="Contact"><a runat="server" href="~/Contact">Contact</a></li>
-                <%--
                 <li class="disabled"><a>Disabled</a></li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">Dropdown <span class="caret"></span>
