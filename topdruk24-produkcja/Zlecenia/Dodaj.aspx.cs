@@ -61,6 +61,7 @@ namespace topdruk24_produkcja.Zlecenia
             SqlDataSource_Zlecenia.InsertParameters.Add("IloscKolorow", inputIloscKolorow.Value);
             SqlDataSource_Zlecenia.InsertParameters.Add("Notatki", inputNotatki.Value);
             SqlDataSource_Zlecenia.Insert();
+            Response.Write("<script>alert('Pomyślnie dodano zlecenie.');</script>");
             Cancel_Action(null, null);
         }
     }
