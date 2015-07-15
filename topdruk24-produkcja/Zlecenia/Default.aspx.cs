@@ -69,7 +69,8 @@ namespace topdruk24_produkcja.Zlecenia
             DataView view = (DataView)SqlDataZleceniodawcy.Select(DataSourceSelectArguments.Empty);
             DataTable table = view.ToTable();
             DataSet ds = new DataSet();
-            ds.Tables.Add(table); foreach (DataRow row in ds.Tables[0].Rows)
+            ds.Tables.Add(table); 
+            foreach (DataRow row in ds.Tables[0].Rows)
             {
                 if(int.Parse(row["Id"].ToString())==id)
                 {

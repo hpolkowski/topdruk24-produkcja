@@ -114,6 +114,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="ProcesyProdukcyjne\Default.aspx" />
+    <Content Include="ProcesyProdukcyjne\Dodaj.aspx" />
     <Content Include="Zlecenia\Default.aspx" />
     <Content Include="Zlecenia\Dodaj.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -202,6 +204,20 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Klienci\Dodaj.aspx.designer.cs">
+      <DependentUpon>Dodaj.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProcesyProdukcyjne\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProcesyProdukcyjne\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProcesyProdukcyjne\Dodaj.aspx.cs">
+      <DependentUpon>Dodaj.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProcesyProdukcyjne\Dodaj.aspx.designer.cs">
       <DependentUpon>Dodaj.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
