@@ -1,6 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Dodaj.aspx.cs" Inherits="topdruk24_produkcja.ProcesyProdukcyjne.Dodaj" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="DodajEtap.aspx.cs" Inherits="topdruk24_produkcja.ProcesyProdukcyjne.DodajEtap" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <asp:SqlDataSource ID="SqlDataSource_Procesy" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" DeleteCommand="DELETE FROM [ProcesProdukcyjny] WHERE [Id] = @Id" InsertCommand="INSERT INTO [ProcesProdukcyjny] ([Nazwa], [Opis]) VALUES (@Nazwa, @Opis)" SelectCommand="SELECT [Id], [Nazwa], [Opis] FROM [ProcesProdukcyjny]" UpdateCommand="UPDATE [ProcesProdukcyjny] SET [Nazwa] = @Nazwa, [Opis] = @Opis WHERE [Id] = @Id">
+    <asp:SqlDataSource ID="SqlDataSource_Etapy" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [ProcesProdukcyjny_Etap]" DeleteCommand="DELETE FROM [ProcesProdukcyjny_Etap] WHERE [Id] = @Id" InsertCommand="INSERT INTO [ProcesProdukcyjny_Etap] ([Nazwa], [Opis]) VALUES (@Nazwa, @Opis)" UpdateCommand="UPDATE [ProcesProdukcyjny_Etap] SET [Nazwa] = @Nazwa, [Opis] = @Opis WHERE [Id] = @Id">
         <DeleteParameters>
             <asp:Parameter Name="Id" Type="Int32" />
         </DeleteParameters>
@@ -12,9 +12,9 @@
             <asp:Parameter Name="Id" Type="Int32" />
         </UpdateParameters>
     </asp:SqlDataSource>
-        <div class="form-horizontal">
+    <div class="form-horizontal">
         <fieldset>
-            <legend>Nowy Proces</legend>
+            <legend>Nowy Etap</legend>
             <div class="form-group">
                 <label for="inputNazwa" class="col-lg-2 control-label">Nazwa</label>
                 <div class="col-lg-10">

@@ -45,3 +45,5 @@ topdruk24-produkcja/obj/Debug/topdruk24-produkcja.pdb
 topdruk24-produkcja/bin/topdruk24-produkcja.pdb
 topdruk24-produkcja/obj/Debug/topdruk24-produkcja.pdb
 topdruk24-produkcja/bin/topdruk24-produkcja.dll
+topdruk24-produkcja/App_Data/Database.mdf
+topdruk24-produkcja/App_Data/Database_log.ldf

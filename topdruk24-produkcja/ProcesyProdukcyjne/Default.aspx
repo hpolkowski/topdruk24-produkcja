@@ -67,6 +67,7 @@
             <option>3</option>
         </select>
         <button runat="server" onserverclick="Proces_Changed" class="btn btn-primary">Wybierz</button>
+        <input type="button" class="btn btn-primary" value="Nowy" onclick="window.location.href = 'Dodaj'">
     </div>
     <div runat="server" id="labelProcesProdukcyjny">
         <label for="selectEtap" class="col-lg-2 control-label">Dodaj etap</label>
@@ -77,6 +78,7 @@
                 <option>3</option>
             </select>
             <button runat="server" onserverclick="Dodaj_Etap" class="btn btn-primary">Dodaj</button>
+            <input type="button" class="btn btn-primary" value="Nowy" onclick="window.location.href = 'DodajEtap'">
             <div style="display: none">
                 <button runat="server" onserverclick="Usun_Etap" id="Etap1">UsunEtap</button>
                 <button runat="server" onserverclick="Usun_Etap" id="Etap2">UsunEtap</button>

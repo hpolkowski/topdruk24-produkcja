@@ -10,16 +10,16 @@
 namespace topdruk24_produkcja.ProcesyProdukcyjne {
     
     
-    public partial class Dodaj {
+    public partial class DodajEtap {
         
         /// <summary>
-        /// SqlDataSource_Procesy control.
+        /// SqlDataSource_Etapy control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource_Procesy;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource_Etapy;
         
         /// <summary>
         /// inputNazwa control.

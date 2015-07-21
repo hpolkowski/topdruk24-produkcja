@@ -116,6 +116,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="ProcesyProdukcyjne\Default.aspx" />
     <Content Include="ProcesyProdukcyjne\Dodaj.aspx" />
+    <Content Include="ProcesyProdukcyjne\DodajEtap.aspx" />
     <Content Include="Zlecenia\Default.aspx" />
     <Content Include="Zlecenia\Dodaj.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -219,6 +220,13 @@
     </Compile>
     <Compile Include="ProcesyProdukcyjne\Dodaj.aspx.designer.cs">
       <DependentUpon>Dodaj.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProcesyProdukcyjne\DodajEtap.aspx.cs">
+      <DependentUpon>DodajEtap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProcesyProdukcyjne\DodajEtap.aspx.designer.cs">
+      <DependentUpon>DodajEtap.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
